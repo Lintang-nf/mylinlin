@@ -1,0 +1,28 @@
+.kotak {
+    border: 1px solid black;
+    width: 150px;
+    height: 700px;
+}
+
+.item-1 {
+    background-color: aquamarine;
+}
+
+.item-2 {
+    background-color: rebeccapurple;
+}
+
+.item-3 {
+    background-color: rosybrown;
+}
+
+.item-4 {
+    background-color: coral;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
