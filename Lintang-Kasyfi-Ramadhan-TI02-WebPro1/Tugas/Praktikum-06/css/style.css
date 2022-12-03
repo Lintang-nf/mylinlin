@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(35, 144, 228);
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    background-color: rgb(43, 211, 226);
+    text-align: center;
+    padding: 10px;
+}
+
+#header h1 {
+    color: aliceblue;
+}
+
+#header blockquote {
+    background-color: rgb(252, 252, 252);
+}
+
+.menu ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+.gambar {
+    text-align: center;
+}
+
+.bigger {
+    font-size: 20px;
+}
+
+.fp::first-letter {
+    font-size: 50px;
+    color: white;
+}
+
+.koleksi {
+    text-align: center;
+}
+
+.koleksi img{
+    width: 20%;
+}
